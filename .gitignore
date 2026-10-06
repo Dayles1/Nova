@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+node_modules.lock
+
+# Build output / caches
+.tanstack/
+.vercel/
+.output/
+dist/
+
+# Generated artifacts (archives, raw image generations)
+artifacts/
+
+# Sandbox runtime state
+.grok/preview.log
+.grok/status
+.grok/og-pending
+
+# QA smoke-test output
+screenshots/app-builder-*
+
+# Env / OS / editor
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
